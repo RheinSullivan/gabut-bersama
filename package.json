@@ -1,0 +1,14 @@
+{
+  "name": "latihan-website-tailwindcss",
+  "version": "1.0.0",
+  "description": "Latian doang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rhein Sullivan",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

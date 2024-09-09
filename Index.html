@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikin Website Karena Gabut</title>
+    <link rel="icon" type="image/png" href="./src/assets/marvel-cell.png" />
+    <link href="/src/main.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="flex items-center w-full bg-transparent fixed top-0 left-0 z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative my-5 lg:my-1 lg:mx-10">
+          <div class="flex w-full items-center px-4">
+            <div class="flex items-center mr-3">
+              <a href="#">
+                <img id="logo-light" class="w-[50px] lg:w-[65px]" src="./src/assets/marvel-cell-dark.png" alt="" />
+                <img id="logo-dark" class="w-[50px] lg:w-[65px]" src="./src/assets/marvel-cell.png" alt="" />
+              </a>
+            </div>
+            <div class="-mr-7 ml-1">
+              <p class="text-sm tracking-[1px] text-dark">Semvak-man</p>
+              <h1 class="block text-lg lg:text-3xl font-bold italic text-dark">Marvel Cilukba</h1>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button id="burgerkill" name="burgerkill" type="button" class="absolute block right-10 lg:hidden">
+              <span class="burgerkill-line"></span>
+              <span class="burgerkill-line"></span>
+              <span class="burgerkill-line"></span>
+            </button>
+            <nav class="hidden absolute py-5 mt-5 lg:mt-0 bg-white shadow-lg rounded-b-lg max-w-[250px] w-full right-7 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none" id="navbar-menu">
+              <ul class="block lg:flex">
+                <li class="group"><a href="#home" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Beranda</a></li>
+                <li class="group"><a href="#about" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Tentang</a></li>
+                <li class="group"><a href="#service" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Servis</a></li>
+                <li class="group"><a href="#customer" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Pelanggan</a></li>
+                <li class="group"><a href="#hp" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Penjualan</a></li>
+                <li class="group"><a href="#contact" class="flex text-base text-dark py-2 mx-5 group-hover:text-IronMan5">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="pt-32 pb-16 lg:pt-24" id="home">
+      <div class="container">
+        <div class="flex flex-wrap lg:mx-10">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h2 class="text-base md:text-lg lg:text-xl">Selamat datang di ✌️😊</h2>
+            <h1 class="text-IronMan5 font-bold text-4xl lg:text-6xl my-2 italic">Marvel Cilukba</h1>
+            <p class="font-medium text-lg leading-relaxed mb-10 pt-5 lg:text-xl">
+              Disini tersedia : <br />
+              Accesories HP | Service HP | Jual/Beli HP | HP Khusus Lempar Pala Orang | Pulsa/Kuota | Token Listrik | Top-Up
+            </p>
+            <a href="#">
+              <button
+                class="bg-IronMan3 text-white border border-IronMan2 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group"
+              >
+                <span class="bg-IronMan3 shadow-IronMan5 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                HP yang kita jual
+              </button>
+            </a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2 lg:mt-8 lg:right-14">
+            <div class="mt-32 lg:mt-0">
+              <img src="./src/assets/img-hero.png" class="max-w-full w-[512px] lg:-mr-10 mx-auto" alt="Marvel Cilukba Logos" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="pt-36 pb-32 bg-IronMan1" id="about">
+      <div class="container">
+        <div class="flex flex-wrap lg:mx-10">
+          <div class="w-full px-5 mb-10 text-white lg:w-1/2">
+            <h1 class="font-bold text-xl uppercase mb-5 text-IronMan5 lg:text-2xl">Tentang Kami</h1>
+            <h2 class="font-semibold text-3xl mb-5 max-w-md lg:text-4xl">Jasa service hp diberbagai tipe, merk, dan keluaran</h2>
+            <p class="max-w-xl font-medium text-base text-justify lg:text-lg">
+              Kami siap melayani service hp meskipun permintaannya yg aneh-aneh, pengerjaan tergantung kerusakan atau tergantung tipe hp yg customer miliki. Terutama ibu-ibu kami siap melayani kalian, yg seenaknya memberi harga atau
+              negosiasi yg diluar nalar...
+            </p>
+          </div>
+          <div class="w-full px-5 text-white lg:pt-3 lg:w-1/2">
+            <h2 class="font-semibold text-3xl mb-5 lg:text-4xl lg:pt-10">Ready segala kebutuhan gadget, dan lainnya.</h2>
+            <p class="font-medium text-base mb-6 text-justify lg:text-lg">
+              Ready segala kebutuhan gaget kecuali iOS (mahal + susah, mana kebanyakannya hp dapet nemu), mulai dari aksesoris, kartu sim card, kartu memori, pulsa, kuota, dan masih banyak lagi, silahkan kunjungi toko kami, awkoawkoawkoa
+              :"V
+            </p>
+            <div class="flex items-center mr-5">
+              <a href="#" class="flex justify-center items-center w-10 h-10 mr-3 text-[#0866FF]">
+                <svg role="img" class="fill-current" width="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Facebook</title>
+                  <path
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="flex justify-center items-center w-10 h-10 mr-3 text-[#25d366]">
+                <svg role="img" class="fill-current" width="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>WhatsApp</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="flex justify-center items-center w-10 h-10 mr-3 text-[#b97d10]">
+                <svg role="img" class="fill-current" width="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Gmail</title>
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section -->
+    <section class="pt-36 pb-16" id="service">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-5">
+            <div class="max-w-xl mx-auto text-center mb-16">
+              <div class="bg-IronMan1 py-2 mb-10 mx-10 lg:mx-40 rounded-lg">
+                <h1 class="font-bold text-xl uppercase text-IronMan5 lg:text-2xl">Galeri Servis HP</h1>
+              </div>
+              <p class="font-medium -mx-8">Foto hasil beberapa service kita, dengan berbagai tipe HP, dan berbagai penlanggan yang sangat membuat kita tersenyum sembari mengepalkan tanggan, hehe...</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-center w-full px-5 xl:mx-auto">
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="./src/assets/servis1.jpg" alt="" class="w-full aspect-[16/9]" />
+              </div>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-IronMan5">Lagi service hp nya Iron Man</h3>
+              <p class="text-base font-medium">Servis disini rasanya seperti anda menjadi Iron Man, ayo servis lah disini</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="./src/assets/servis2.jpg" alt="" class="w-full aspect-[16/9]" />
+              </div>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-IronMan5">Lagi service hp nya Iron Man</h3>
+              <p class="text-base font-medium">Servis disini rasanya seperti anda menjadi Iron Man, ayo servis lah disini</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="./src/assets/servis3.jpg" alt="" class="w-full aspect-[16/9]" />
+              </div>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-IronMan5">Lagi service hp nya Iron Man</h3>
+              <p class="text-base font-medium">Servis disini rasanya seperti anda menjadi Iron Man, ayo servis lah disini</p>
+            </div>
+            <div class="mb-12 p-4 md:w-1/2">
+              <div class="overflow-hidden rounded-md shadow-md">
+                <img src="./src/assets/servis4.jpg" alt="" class="w-full aspect-[16/9]" />
+              </div>
+              <h3 class="mt-5 mb-3 text-xl font-semibold text-IronMan5">Lagi service hp nya Iron Man</h3>
+              <p class="text-base font-medium">Servis disini rasanya seperti anda menjadi Iron Man, ayo servis lah disini</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customer -->
+    <section class="bg-IronMan1 pt-36 pb-32" id="customer">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 text-center">
+            <h2 class="mb-2 font-bold text-xl uppercase text-IronMan5 lg:text-2xl">Pelanggan</h2>
+            <p class="text-base font-medium text-white md:text-lg">Hasil kepuasan pelanggan Semvak-man Marvel Cilukba</p>
+          </div>
+        </div>
+
+        <div class="swiper flex justify-center items-center max-w-[1120px] w-full">
+          <div class="mySwiper my-0 mx-10">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="swiper-slide w-80 rounded-[25px] bg-white">
+                <div class="flex flex-col relative gap-y-1 py-6 items-center px-0">
+                  <span class="overlay"></span>
+                  <div class="relative h-[150px] w-[150px] rounded-full bg-IronMan5 p-1">
+                    <img src="https://i.ebayimg.com/images/g/fCkAAOSwDwdkeUoc/s-l1600.webp" alt="" class="h-full w-full object-cover rounded-full border-4 border-dark" />
+                  </div>
+                </div>
+                <div class="flex flex-col items-center py-3 px-4 text-center">
+                  <p class="text-sm mx-5 mb-5 z-10">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, nobis molestiae aperiam, aut maiores, officiis doloribus possimus laudantium quasi iste blanditiis praesentium provident error alias.
+                  </p>
+                  <h2 class="text-lg lg:text-2xl font-bold italic text-IronMan5">Iron Man</h2>
+                  <h6 class="italic font-medium">Superhero di marvel</h6>
+                </div>
+              </div>
+              <div class="swiper-slide w-80 rounded-[25px] bg-white">
+                <div class="flex flex-col relative gap-y-1 py-6 items-center px-0">
+                  <span class="overlay"></span>
+                  <div class="relative h-[150px] w-[150px] rounded-full bg-IronMan5 p-1">
+                    <img src="https://i.ebayimg.com/images/g/fCkAAOSwDwdkeUoc/s-l1600.webp" alt="" class="h-full w-full object-cover rounded-full border-4 border-dark" />
+                  </div>
+                </div>
+                <div class="flex flex-col items-center py-3 px-4 text-center">
+                  <p class="text-sm mx-5 mb-5 z-10">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, nobis molestiae aperiam, aut maiores, officiis doloribus possimus laudantium quasi iste blanditiis praesentium provident error alias.
+                  </p>
+                  <h2 class="text-lg lg:text-2xl font-bold italic text-IronMan5">Iron Man</h2>
+                  <h6 class="italic font-medium">Superhero di marvel</h6>
+                </div>
+              </div>
+              <div class="swiper-slide w-80 rounded-[25px] bg-white">
+                <div class="flex flex-col relative gap-y-1 py-6 items-center px-0">
+                  <span class="overlay"></span>
+                  <div class="relative h-[150px] w-[150px] rounded-full bg-IronMan5 p-1">
+                    <img src="https://i.ebayimg.com/images/g/fCkAAOSwDwdkeUoc/s-l1600.webp" alt="" class="h-full w-full object-cover rounded-full border-4 border-dark" />
+                  </div>
+                </div>
+                <div class="flex flex-col items-center py-3 px-4 text-center">
+                  <p class="text-sm mx-5 mb-5 z-10">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, nobis molestiae aperiam, aut maiores, officiis doloribus possimus laudantium quasi iste blanditiis praesentium provident error alias.
+                  </p>
+                  <h2 class="text-lg lg:text-2xl font-bold italic text-IronMan5">Iron Man</h2>
+                  <h6 class="italic font-medium">Superhero di marvel</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- Javascript -->
+    <script src="./dist/script.js"></script>
+    <script src="./dist/swiper-bundle.min.js"></script>
+  </body>
+</html>

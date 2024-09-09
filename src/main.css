@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background: linear-gradient(92.23deg, #4b0908 21.43%, #6a0c0b 50.63%, #fbca03 100%, #aa0505 117.04%);
+}
+.btn:hover {
+  background: linear-gradient(92.23deg, #fbca03 21.43%, #4b0908 50.63%, #aa0505 100%, #6a0c0b 117.04%);
+}
+.navbar-fixed {
+  @apply fixed z-[9999] bg-IronMan3/80 backdrop-blur-sm;
+  box-shadow: inset 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+}
+.navbar-fixed p,
+.navbar-fixed h1,
+.navbar-fixed li a {
+  @apply text-white;
+}
+.navbar-fixed nav {
+  @apply bg-IronMan3/80 lg:bg-transparent backdrop-blur-sm;
+}
+.navbar-fixed #logo-light {
+  @apply hidden;
+}
+.navbar-fixed #logo-dark {
+  @apply block;
+}
+.navbar-fixed .burgerkill-line {
+  @apply bg-white;
+}
+.burgerkill-line {
+  @apply my-2 block h-[2.5px] w-[30px] bg-dark;
+}
+.burgerkill-active > span:nth-child(1) {
+  @apply transition duration-500 origin-top-left rotate-45;
+}
+.burgerkill-active > span:nth-child(2) {
+  @apply transition duration-300 scale-0;
+}
+.burgerkill-active > span:nth-child(3) {
+  @apply transition duration-500 origin-bottom-left -rotate-45;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0d1117;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #0d1117;
+}
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+.swiper-slide {
+  width: 300px;
+  height: 500px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+}
