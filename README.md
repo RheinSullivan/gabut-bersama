@@ -8,7 +8,7 @@ This website was created with the help of the css framework, to run it you must 
 Link : https://nodejs.org/id |
 Link : https://git-scm.com/downloads
 
-Run this command:
+# Run this command:
 npm install -D tailwindcss => 
 npx tailwindcss init => 
 npx tailwindcss -i ./src/main.css -o ./dist/output.css --watch
