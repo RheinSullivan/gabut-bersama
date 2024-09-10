@@ -75,3 +75,28 @@
   text-align: center;
   border-radius: 25px;
 }
+.swiper-nav-button {
+  color: #fbca03;
+  transition: color 0.5 ease;
+}
+.swiper-nav-button:hover {
+  color: #b97d10;
+}
+.swiper-button-next {
+  left: 0;
+}
+.swiper-button-prev {
+  right: 0;
+}
+.swiper-pagination-bullet {
+  background-color: #fbca03;
+  opaciry: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #b97d10;
+}
+@media screen and (max-width: 768px) {
+  .swiper-nav-button {
+    display: none;
+  }
+}

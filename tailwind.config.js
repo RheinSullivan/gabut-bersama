@@ -19,6 +19,9 @@ module.exports = {
         IronMan4: "#fbca03",
         IronMan5: "#b97d10",
         dark: "#0d1117",
+        whatsapp: "#25d366",
+        facebook: "#0866FF",
+        gmail: "#ff0000"
       },
       screens: {
         "2xl": "1320px",
