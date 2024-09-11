@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "website": "tailwindcss -i ./src/main.css -o ./dist/output.css --watch"
+    "watch": "tailwindcss -i ./src/main.css -o ./dist/output.css --watch"
   },
   "author": "Rhein Sullivan",
   "license": "ISC",
