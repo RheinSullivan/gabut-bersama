@@ -644,6 +644,34 @@ video {
   top: 100%;
 }
 
+.-top-\[60px\] {
+  top: -60px;
+}
+
+.-top-\[600px\] {
+  top: -600px;
+}
+
+.-top-\[0px\] {
+  top: -0px;
+}
+
+.-top-\[580px\] {
+  top: -580px;
+}
+
+.-top-\[50px\] {
+  top: -50px;
+}
+
+.-top-\[500px\] {
+  top: -500px;
+}
+
+.-top-\[550px\] {
+  top: -550px;
+}
+
 .z-10 {
   z-index: 10;
 }
