@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ["*.{html,js}"],
   theme: {
     container: {
       center: true,
@@ -21,7 +21,7 @@ module.exports = {
         dark: "#0d1117",
         whatsapp: "#25d366",
         facebook: "#0866FF",
-        gmail: "#ff0000"
+        gmail: "#ff0000",
       },
       screens: {
         "2xl": "1320px",
